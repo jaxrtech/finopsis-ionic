@@ -1,6 +1,6 @@
 # Finposis
 
-An app to showcase the Barchart API platform in a clean, look on mobile.
+An app to showcase the Barchart API platform with a clean look on mobile.
 
 *Currently a work in progress.*
 
