@@ -1,17 +1,67 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>
+      <header>
+        <h2>The Daily</h2>
+        <h1 class="price amount-positive"><span class="sign">+</span><sup class="dollar-sign">$</sup>10<sup class="cents">.42</sup></h1>
+        <h6 class="date">Friday, January 18, 2018</h6>
+      </header>
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+
+  <section class="market-performance">
+    <h1>Market Performance</h1>
+    <article>
+      <img src="assets/imgs/placeholder-stock-chart-half.png" />
+      <table>
+        <tr>
+          <td>NASDAQ</td>
+          <td class="amount-positive">+162.03</td>
+          <td class="amount-positive">(1.24%)</td>
+        </tr>
+        <tr>
+          <td>DWIJ</td>
+          <td class="amount-positive">+16.03</td>
+          <td class="amount-positive">(0.92%)</td>
+        </tr>
+        <tr>
+          <td>S&amp;P 500</td>
+          <td class="amount-positive">+50.03</td>
+          <td class="amount-positive">(2.23%)</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+  <section class="featured-news">
+    <h1>Featured News</h1>
+
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <time datetime="2001-05-15T19:00">2:42pm</time>
+      </p>
+      <img width="128" height="64" src="https://placeimg.com/320/128/tech?1" />      
+    </article>
+
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <time datetime="2001-05-15T19:00">2:42pm</time>
+      </p>
+      <img width="128" height="64" src="https://placeimg.com/320/128/tech?2" />      
+    </article>
+
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <time datetime="2001-05-15T19:00">2:42pm</time>
+      </p>
+      <img width="128" height="64" src="https://placeimg.com/320/128/tech?3" />      
+    </article>
+  </section>
+
 </ion-content>
